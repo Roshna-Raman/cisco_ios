@@ -75,3 +75,18 @@
     - all
     - vrf
     - routing
+    
+- command: show crypto pki certificates
+  parser: show_crypto_pki_certificates.yaml
+  groups:
+    - all
+    - system
+
+- command: show license
+  parser: show_license.yaml
+  groups:
+    - all
+    - license
+
+    
+ 
